@@ -4,6 +4,7 @@ Solution located on app.js
 
 The solution is based assuming the input array data tree has the following structure:
 
+```
 [
     rootCategory,
         subcategoryLevel1,
@@ -20,3 +21,4 @@ The solution is based assuming the input array data tree has the following struc
             subcategoryLevel2,
             subcategoryLevel2,
 ]
+```
