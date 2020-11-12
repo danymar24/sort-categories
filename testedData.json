@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Men",
+        "id": 20,
+        "parent_id": null
+    },
+    {
+        "name": "Accessories",
+        "id": 3,
+        "parent_id": 22
+    },
+    {
+        "name": "Accessories",
+        "id": 2,
+        "parent_id": 21
+    },
+    {
+        "name": "Watches",
+        "id": 58,
+        "parent_id": 2
+    },
+    {
+        "name": "Women",
+        "id": 21,
+        "parent_id": null
+    },
+    {
+        "name": "strips",
+        "id": 44,
+        "parent_id": 57
+    },
+    {
+        "name": "Watches",
+        "id": 57,
+        "parent_id": 1
+    },
+    {
+        "name": "Accessories",
+        "id": 1,
+        "parent_id": 20
+    },
+    {
+        "name": "Dogs",
+        "id": 22,
+        "parent_id": null
+    },
+    {
+        "name": "Watches",
+        "id": 59,
+        "parent_id": 3
+    }
+]
