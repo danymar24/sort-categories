@@ -48,5 +48,20 @@
         "name": "Watches",
         "id": 59,
         "parent_id": 3
+    },
+    {
+        "name": "Shoes",
+        "id": 60,
+        "parent_id": 1
+    },
+    {
+        "name": "Cats",
+        "id": 42,
+        "parent_id": null
+    },
+    {
+        "name": "Games",
+        "id": 30,
+        "parent_id": 20
     }
 ]
