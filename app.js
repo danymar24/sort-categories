@@ -2,15 +2,13 @@ module.exports = function sortCategoriesForInsert(inputJson) {
     // Your code happens...
     ///   ... which calculates properJsonOutput
 
-    /** Converts the inputJson value to a javascript readable object */
-    const parsedJson = JSON.parse(inputJson);
     var properJsonOutput = [];
 
     /**
      * Iterate trough the root categories to get the sub categories
      */
-    for (let i = 0; i < parsedJson.length; i++) {
-        const element = parsedJson[i];
+    for (let i = 0; i < inputJson.length; i++) {
+        const element = inputJson[i];
         /** If the category is a root category, it will push it to properJsonOutput */
         if (element.parent_id === null) {
             /** push the root element to the properJsonOutput */
@@ -20,7 +18,7 @@ module.exports = function sortCategoriesForInsert(inputJson) {
              * Gets the subcategories passing the id of the element and the array, 
              * then concatenates the result to the properJsonOutput array 
              */
-            properJsonOutput = properJsonOutput.concat(findSubCategories(element.id, parsedJson));
+            properJsonOutput = properJsonOutput.concat(findSubCategories(element.id, inputJson));
         }
     }
 
